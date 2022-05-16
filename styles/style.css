@@ -1,0 +1,585 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* 1st - Header Section */
+
+.navbar {
+    margin-bottom: 4px;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    Background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    Height: 100vh;
+}
+
+
+/* Logo */
+
+.logo {
+    width: 170px;
+    height: 0px;
+    display: inline-block;
+}
+
+.logo img {
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+
+/* Navbar links */
+
+.nav-links ul {
+    width: 100%;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-links ul li a {
+    width: 50px;
+    text-decoration: none;
+    font-size: medium;
+    padding-left: 30px;
+    font-size: 17px;
+    color: white;
+}
+
+.nav-links {
+    width: 75%;
+    display: inline-block;
+    text-align: right;
+}
+
+
+/* introduction */
+
+.introduction {
+    text-align: center;
+    padding-top: 170px;
+}
+
+.introduction h3 {
+    color: white;
+    font-weight: 100;
+    font-family: 'Alegreya', serif;
+    padding-bottom: 20px;
+}
+
+.introduction h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 65px;
+    font-family: serif;
+    padding-bottom: 30px;
+}
+
+.introduction .buttons {
+    margin-top: 20px;
+}
+
+.introduction .headline {
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+
+.introduction .btn1 {
+    color: white;
+    font-size: 13.5px;
+    font-family: serif;
+    font-weight: bold;
+    background-color: rgb(139, 119, 91);
+    border: none;
+    padding: 18px 30px;
+    margin-top: 10px;
+    margin-right: 7px;
+    border-radius: 5%;
+}
+
+.introduction .btn2 {
+    color: white;
+    font-size: 13.5px;
+    font-family: serif;
+    font-weight: bolder;
+    background-color: rgb(139, 119, 91);
+    border: none;
+    padding: 17px 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+
+
+/* Animation button */
+
+.white-button {
+    margin: 70px auto;
+    border: 2px solid white;
+    border-radius: 43%;
+    height: 55px;
+    width: 35px;
+    background-color: transparent;
+}
+
+
+/* 2nd  - who we are section */
+
+.who-are-we {
+    margin-left: 150px;
+    display: inline-block;
+}
+
+.food-image {
+    display: inline-block;
+    width: 45%;
+}
+
+.food-image img {
+    width: 100%;
+    margin-top: 100px
+}
+
+.items {
+    display: inline-block;
+    margin-left: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    top: -150px;
+}
+
+.items h2 {
+    padding-bottom: 10px;
+    font-family: 'Alegreya', serif;
+    font-size: 35px;
+}
+
+.items p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Alegreya ', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    width: 570px;
+}
+
+.items li {
+    list-style-type: none;
+}
+
+.items li span {
+    list-style-type: none;
+    font-size: 15px;
+    font-family: 'Alegreya ', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.items ul li img {
+    vertical-align: middle;
+    padding-top: 10px;
+    width: 45px;
+}
+
+
+/* 3nd - our location section */
+
+.our-location {
+    display: inline-block;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.food-image2 {
+    display: inline-block;
+    width: 45%;
+}
+
+.food-image2 img {
+    width: 85%;
+    margin-top: 100px
+}
+
+.text {
+    width: 45%;
+    position: relative;
+    bottom: 130px;
+    display: inline-block;
+    margin-left: 100px;
+    padding-bottom: 80px;
+}
+
+.text h2 {
+    padding: 10px 0px;
+    font-family: 'Alegreya', serif;
+    font-size: 35px;
+}
+
+.text p {
+    padding: 20px 0px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Alegreya ', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    width: 570px;
+}
+
+
+/* 4th - our baking section */
+
+.our-baking {
+    text-align: center;
+    width: 85%;
+    margin: 90px auto;
+}
+
+.our-baking #our-baking-h3 {
+    font-size: 28px;
+    font-weight: 100;
+    color: #636363;
+    font-family: 'Alegreya ', sans-serif;
+    padding-bottom: 20px;
+}
+
+.our-baking #our-baking-p {
+    font-size: 17px;
+    color: #8f8f8f;
+    font-weight: 900;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.our-baking .item #item-h3 {
+    font-size: 19px;
+    font-weight: 100;
+    color: #636363;
+    font-family: 'Alegreya ', sans-serif;
+    padding: 20px;
+}
+
+.our-baking .item #item-p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #636363;
+    font-family: 'Alegreya ', sans-serif;
+    padding: 20px;
+}
+
+.item {
+    display: inline-block;
+    width: 30%;
+    padding-left: 37px;
+}
+
+.item img {
+    width: 100%;
+}
+
+
+/*  5th - contact information section */
+
+.contact-information {
+    display: inline-block;
+    background-color: #f8f8f8;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.address {
+    display: inline-block;
+    width: 45%;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.address img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.items {
+    display: inline-block;
+    margin-left: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    top: -80px;
+    left: 20px;
+}
+
+.items h2 {
+    padding-bottom: 10px;
+    font-family: 'Alegreya', serif;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.items p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Alegreya ', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    width: 570px;
+}
+
+.items li {
+    list-style-type: none;
+}
+
+.items li span {
+    list-style-type: none;
+    font-size: 15px;
+    font-family: 'Alegreya ', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-top: 30px;
+}
+
+.items ul li img {
+    width: 25px;
+    height: auto;
+    padding-top: 30px;
+}
+
+
+/* Location section - extra */
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
+
+
+/* 6th  - footer section */
+
+.footer {
+    background-color: #403d38;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.footer .footer-items1 {
+    width: 250px;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+
+.footer .footer-items1 li {
+    list-style-type: none;
+}
+
+.footer .footer-items1 h3 {
+    color: white;
+    font-weight: 300px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.footer .footer-items1 p {
+    color: #81807e;
+    position: relative;
+    line-height: 25px;
+    top: 34px;
+}
+
+.footer .footer-items2 {
+    width: 250px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 24px;
+}
+
+.footer .footer-items2 .line {
+    width: 100%;
+    position: relative;
+    top: 4px;
+    border-bottom: 0.2px solid #46433e;
+}
+
+.footer .footer-items2 h3 {
+    color: white;
+    font-weight: 300px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.footer .footer-items2 ul {
+    position: relative;
+    list-style: none;
+    position: relative;
+    top: 30px;
+    line-height: 35px;
+    color: #8b8a85;
+}
+
+.footer .footer-items2 li::before {
+    content: '>';
+    position: absolute;
+    left: -20px;
+    color: #615f5a;
+}
+
+.footer .footer-items3 {
+    width: 250px;
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    top: 12px;
+}
+
+.footer .footer-items3 .line {
+    width: 100%;
+    position: relative;
+    top: 4px;
+    border-bottom: 0.2px solid #46433e;
+}
+
+.footer .footer-items3 h3 {
+    color: white;
+    font-weight: 300px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.footer .footer-items3 ul {
+    position: relative;
+    list-style: none;
+    position: relative;
+    top: 30px;
+    line-height: 35px;
+    color: #8b8a85;
+}
+
+.footer .footer-items3 li::before {
+    content: '>';
+    position: absolute;
+    left: -20px;
+    color: #615f5a;
+}
+
+.footer .footer-items4 {
+    width: 250px;
+    display: inline-block;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+
+.footer .footer-items4 h3 {
+    color: white;
+    font-weight: 300px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.footer .footer-items4 ul {
+    position: relative;
+    list-style: none;
+    position: relative;
+    top: 24px;
+    line-height: 25px;
+    color: #8b8a85;
+    vertical-align: middle;
+}
+
+.footer .footer-items4 ul li {
+    width: 320px;
+    padding: 11.3px 0px;
+}
+
+.footer .footer-items4 img {
+    width: 17px;
+    position: relative;
+    right: 10px;
+}
+
+.footer .footer-items4 .line {
+    width: 100%;
+    position: relative;
+    top: 4px;
+    border-bottom: 0.2px solid #46433e;
+}
+
+.footer .footer-items4 ul {
+    width: 250px;
+    height: 180px;
+    background-image: linear-gradient(rgba(64, 61, 56, 0.8), #403d38), url("../images/contact-details-map.png");
+    background-position: center 50px;
+    background-repeat: no-repeat;
+}
+
+
+/* last - copyrights section */
+
+.copyrights {
+    background-color: #353330;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.copyrights .copy-image {
+    margin: auto;
+}
+
+.copyrights .copy-text {
+    color: #817c74;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.copyrights .social-media-icons {
+    display: inline-block;
+    width: 400px;
+    margin: 30px auto;
+}
+
+.copyrights .social-media-icons .icon {
+    display: inline-block;
+    border-radius: 60%;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+
+/* 
+new tags:
+position - relative
+vertical - align
+line - height
+
+Questions: 
+Why I can't write short path in background image: url?
+put ../ before path
+*/
